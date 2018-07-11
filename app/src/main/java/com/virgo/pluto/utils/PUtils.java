@@ -8,6 +8,17 @@ import android.text.format.Formatter;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
+/**
+ * 工具类
+ * 1、ThumbnailUtils
+ *     createVideoThumnail(String filePath, int kind)
+ *     extractThumbnail(Bitmap source, int width, int height)
+ *
+ * 2、ArgbEvaluator
+ *     提供两个其实色值和一个分值，特定算法计算新的颜色中间值
+ *     自定义属性动画求值器，根据时间改变view的显示状态
+ *     配合viewpager提供滑动偏离值使用，其背景色随着滑动动态改变
+ */
 public class PUtils {
 
     /**
