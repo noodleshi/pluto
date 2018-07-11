@@ -42,6 +42,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.TestActivity" />
+        <activity android:name=".test.fragment.FragmentActivity1" />
+        <activity android:name=".test.lifecycle.LifecycleActivity1" />
+        <activity android:name=".test.PlutoTestActivity" />
 
         <provider
             android:name="com.virgo.pluto.lifecycle.LifecycleProvider"

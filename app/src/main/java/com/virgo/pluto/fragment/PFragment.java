@@ -1,5 +1,6 @@
 package com.virgo.pluto.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
@@ -12,6 +13,11 @@ public class PFragment extends BaseFragment {
 
     public String getFragTag() {
         return "pfrag#" + (frag_id);
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
     }
 
     @Override

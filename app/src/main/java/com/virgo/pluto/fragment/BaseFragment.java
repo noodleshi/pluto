@@ -91,6 +91,29 @@ public abstract class BaseFragment extends Fragment {
         }
     }
 
+    public class EmptyCallback implements Callback{
+
+        @Override
+        public void onCreate() {
+
+        }
+
+        @Override
+        public void onResume() {
+
+        }
+
+        @Override
+        public void onPause() {
+
+        }
+
+        @Override
+        public void onDestroy() {
+
+        }
+    }
+
     public interface Callback {
         void onCreate();
 

@@ -13,6 +13,12 @@
         android:text="test1"/>
 
     <Button
+        android:id="@+id/fragTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fragTest"/>
+
+    <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
